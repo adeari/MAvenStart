@@ -9,4 +9,4 @@ Running Maven Only with<br>
 maven package
 
 Run in browser with<br>
-http://localghost:8080
+http://localhost:8080
