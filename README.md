@@ -1,12 +1,12 @@
 ini untuk Jalankan MAVEN
 
-Cukup start
+Cukup start<br>
 maven package
 
 
 
-Running Maven Only with
+Running Maven Only with<br>
 maven package
 
-Run in browser with
+Run in browser with<br>
 http://localghost:8080
