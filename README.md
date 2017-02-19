@@ -6,7 +6,7 @@ mvn package
 Build Apps in Maven Only with<br>
 mvn package
 
-Running apps
+Running apps<br>
 java -jar target/webadmin-1.0-jar-with-dependencies.jar
 
 Run in browser with<br>
