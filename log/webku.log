@@ -1,0 +1,115 @@
+[19 Feb 2017 10:59:05]spark.route.Routes|DEBUG : Adds route: get, /hello, spark.RouteImpl$1@4dcbadb4
+[19 Feb 2017 10:59:05]spark.route.Routes|DEBUG : Adds route: get, iki, spark.RouteImpl$1@ba8a1dc
+[19 Feb 2017 10:59:05]spark.route.Routes|DEBUG : Adds route: get, /, spark.RouteImpl$1@504bae78
+[19 Feb 2017 10:59:05]org.eclipse.jetty.util.log|DEBUG : Logging to org.slf4j.impl.Log4jLoggerAdapter(org.eclipse.jetty.util.log) via org.eclipse.jetty.util.log.Slf4jLog
+[19 Feb 2017 10:59:05]org.eclipse.jetty.util.log|INFO : Logging initialized @665ms
+[19 Feb 2017 10:59:05]org.eclipse.jetty.util.component.ContainerLifeCycle|DEBUG : spark.embeddedserver.jetty.JettyHandler@5d35dbc added {org.eclipse.jetty.server.session.HashSessionManager@6821b470,AUTO}
+[19 Feb 2017 10:59:05]org.eclipse.jetty.util.component.ContainerLifeCycle|DEBUG : org.eclipse.jetty.server.Server@19e7cae9 added {qtp756741302{STOPPED,8<=0<=200,i=0,q=0},AUTO}
+[19 Feb 2017 10:59:06]org.eclipse.jetty.util.component.ContainerLifeCycle|DEBUG : HttpConnectionFactory@7237fe1a{HTTP/1.1} added {HttpConfiguration@80b3493{32768,8192/8192,https://:0,[]},POJO}
+[19 Feb 2017 10:59:06]org.eclipse.jetty.util.component.ContainerLifeCycle|DEBUG : ServerConnector@452cb430{null}{0.0.0.0:0} added {org.eclipse.jetty.server.Server@19e7cae9,UNMANAGED}
+[19 Feb 2017 10:59:06]org.eclipse.jetty.util.component.ContainerLifeCycle|DEBUG : ServerConnector@452cb430{null}{0.0.0.0:0} added {qtp756741302{STOPPED,8<=0<=200,i=0,q=0},AUTO}
+[19 Feb 2017 10:59:06]org.eclipse.jetty.util.component.ContainerLifeCycle|DEBUG : ServerConnector@452cb430{null}{0.0.0.0:0} added {org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@7cc3a470,AUTO}
+[19 Feb 2017 10:59:06]org.eclipse.jetty.util.component.ContainerLifeCycle|DEBUG : ServerConnector@452cb430{null}{0.0.0.0:0} added {org.eclipse.jetty.io.ArrayByteBufferPool@2cc9c146,POJO}
+[19 Feb 2017 10:59:06]org.eclipse.jetty.util.component.ContainerLifeCycle|DEBUG : ServerConnector@452cb430{null}{0.0.0.0:0} added {HttpConnectionFactory@7237fe1a{HTTP/1.1},AUTO}
+[19 Feb 2017 10:59:06]org.eclipse.jetty.server.ServerConnector|DEBUG : ServerConnector@452cb430{HTTP/1.1}{0.0.0.0:0} added HttpConnectionFactory@7237fe1a{HTTP/1.1}
+[19 Feb 2017 10:59:06]org.eclipse.jetty.util.component.ContainerLifeCycle|DEBUG : ServerConnector@452cb430{HTTP/1.1}{0.0.0.0:0} added {org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@42125ec1,MANAGED}
+[19 Feb 2017 10:59:06]org.eclipse.jetty.util.component.ContainerLifeCycle|DEBUG : org.eclipse.jetty.server.Server@19e7cae9 added {ServerConnector@452cb430{HTTP/1.1}{0.0.0.0:8080},AUTO}
+[19 Feb 2017 10:59:06]org.eclipse.jetty.util.component.ContainerLifeCycle|DEBUG : org.eclipse.jetty.server.Server@19e7cae9 added {spark.embeddedserver.jetty.JettyHandler@5d35dbc,AUTO}
+[19 Feb 2017 10:59:06]spark.embeddedserver.jetty.EmbeddedJettyServer|INFO : == Spark has ignited ...
+[19 Feb 2017 10:59:06]spark.embeddedserver.jetty.EmbeddedJettyServer|INFO : >> Listening on 0.0.0.0:8080
+[19 Feb 2017 10:59:06]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : starting org.eclipse.jetty.server.Server@19e7cae9
+[19 Feb 2017 10:59:06]org.eclipse.jetty.server.Server|INFO : jetty-9.3.z-SNAPSHOT
+[19 Feb 2017 10:59:06]org.eclipse.jetty.server.handler.AbstractHandler|DEBUG : starting org.eclipse.jetty.server.Server@19e7cae9
+[19 Feb 2017 10:59:06]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : starting qtp756741302{STOPPED,8<=0<=200,i=0,q=0}
+[19 Feb 2017 10:59:06]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : STARTED @760ms qtp756741302{STARTED,8<=8<=200,i=8,q=0}
+[19 Feb 2017 10:59:06]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : starting spark.embeddedserver.jetty.JettyHandler@5d35dbc
+[19 Feb 2017 10:59:06]org.eclipse.jetty.server.handler.AbstractHandler|DEBUG : starting spark.embeddedserver.jetty.JettyHandler@5d35dbc
+[19 Feb 2017 10:59:06]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : starting org.eclipse.jetty.server.session.HashSessionManager@6821b470
+[19 Feb 2017 10:59:06]org.eclipse.jetty.util.component.ContainerLifeCycle|DEBUG : org.eclipse.jetty.server.session.HashSessionManager@6821b470 added {org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@5a92b6a0,MANAGED}
+[19 Feb 2017 10:59:06]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : starting org.eclipse.jetty.server.session.HashSessionIdManager@5a1c9796
+[19 Feb 2017 10:59:06]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : STARTED @787ms org.eclipse.jetty.server.session.HashSessionIdManager@5a1c9796
+[19 Feb 2017 10:59:06]org.eclipse.jetty.util.component.ContainerLifeCycle|DEBUG : org.eclipse.jetty.server.Server@19e7cae9 added {org.eclipse.jetty.server.session.HashSessionIdManager@5a1c9796,MANAGED}
+[19 Feb 2017 10:59:06]org.eclipse.jetty.util.component.ContainerLifeCycle|DEBUG : org.eclipse.jetty.server.session.HashSessionManager@6821b470 added {org.eclipse.jetty.server.session.HashSessionIdManager@5a1c9796,UNMANAGED}
+[19 Feb 2017 10:59:06]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : starting org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@5a92b6a0
+[19 Feb 2017 10:59:06]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : STARTED @794ms org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@5a92b6a0
+[19 Feb 2017 10:59:06]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : STARTED @799ms org.eclipse.jetty.server.session.HashSessionManager@6821b470
+[19 Feb 2017 10:59:06]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : STARTED @800ms spark.embeddedserver.jetty.JettyHandler@5d35dbc
+[19 Feb 2017 10:59:06]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : starting ServerConnector@452cb430{HTTP/1.1}{0.0.0.0:8080}
+[19 Feb 2017 10:59:06]org.eclipse.jetty.util.component.ContainerLifeCycle|DEBUG : ServerConnector@452cb430{HTTP/1.1}{0.0.0.0:8080} added {sun.nio.ch.ServerSocketChannelImpl[/0:0:0:0:0:0:0:0:8080],POJO}
+[19 Feb 2017 10:59:06]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : starting org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@7cc3a470
+[19 Feb 2017 10:59:06]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : STARTED @817ms org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@7cc3a470
+[19 Feb 2017 10:59:06]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : starting HttpConnectionFactory@7237fe1a{HTTP/1.1}
+[19 Feb 2017 10:59:06]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : STARTED @817ms HttpConnectionFactory@7237fe1a{HTTP/1.1}
+[19 Feb 2017 10:59:06]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : starting org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@42125ec1
+[19 Feb 2017 10:59:06]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : starting org.eclipse.jetty.io.SelectorManager$ManagedSelector@7bf87786 keys=-1 selected=-1
+[19 Feb 2017 10:59:06]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : STARTED @824ms org.eclipse.jetty.io.SelectorManager$ManagedSelector@7bf87786 keys=0 selected=0
+[19 Feb 2017 10:59:06]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : starting org.eclipse.jetty.io.SelectorManager$ManagedSelector@7c2e9199 keys=-1 selected=-1
+[19 Feb 2017 10:59:06]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : STARTED @826ms org.eclipse.jetty.io.SelectorManager$ManagedSelector@7c2e9199 keys=0 selected=0
+[19 Feb 2017 10:59:06]org.eclipse.jetty.io.SelectorManager|DEBUG : Starting Thread[qtp756741302-13-selector-ServerConnectorManager@42125ec1/0,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@7bf87786 keys=0 selected=0
+[19 Feb 2017 10:59:06]org.eclipse.jetty.io.SelectorManager|DEBUG : Starting Thread[qtp756741302-12-selector-ServerConnectorManager@42125ec1/1,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@7c2e9199 keys=0 selected=0
+[19 Feb 2017 10:59:06]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : STARTED @826ms org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@42125ec1
+[19 Feb 2017 10:59:06]org.eclipse.jetty.io.SelectorManager|DEBUG : Selector loop waiting on select
+[19 Feb 2017 10:59:06]org.eclipse.jetty.io.SelectorManager|DEBUG : Selector loop waiting on select
+[19 Feb 2017 10:59:06]org.eclipse.jetty.util.component.ContainerLifeCycle|DEBUG : ServerConnector@452cb430{HTTP/1.1}{0.0.0.0:8080} added {acceptor-0@1756e62c,POJO}
+[19 Feb 2017 10:59:06]org.eclipse.jetty.server.ServerConnector|INFO : Started ServerConnector@452cb430{HTTP/1.1}{0.0.0.0:8080}
+[19 Feb 2017 10:59:06]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : STARTED @830ms ServerConnector@452cb430{HTTP/1.1}{0.0.0.0:8080}
+[19 Feb 2017 10:59:06]org.eclipse.jetty.server.Server|INFO : Started @830ms
+[19 Feb 2017 10:59:06]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : STARTED @831ms org.eclipse.jetty.server.Server@19e7cae9
+[19 Feb 2017 10:59:36]org.eclipse.jetty.server.session|DEBUG : Scavenging sessions at 1487476776086
+[19 February 2017 10:59:56]spark.route.Routes|DEBUG : Adds route: get, /hello, spark.RouteImpl$1@4dcbadb4
+[19 February 2017 10:59:56]spark.route.Routes|DEBUG : Adds route: get, iki, spark.RouteImpl$1@ba8a1dc
+[19 February 2017 10:59:56]spark.route.Routes|DEBUG : Adds route: get, /, spark.RouteImpl$1@504bae78
+[19 February 2017 10:59:56]org.eclipse.jetty.util.log|DEBUG : Logging to org.slf4j.impl.Log4jLoggerAdapter(org.eclipse.jetty.util.log) via org.eclipse.jetty.util.log.Slf4jLog
+[19 February 2017 10:59:56]org.eclipse.jetty.util.log|INFO : Logging initialized @371ms
+[19 February 2017 10:59:56]org.eclipse.jetty.util.component.ContainerLifeCycle|DEBUG : spark.embeddedserver.jetty.JettyHandler@5d35dbc added {org.eclipse.jetty.server.session.HashSessionManager@6821b470,AUTO}
+[19 February 2017 10:59:56]org.eclipse.jetty.util.component.ContainerLifeCycle|DEBUG : org.eclipse.jetty.server.Server@19e7cae9 added {qtp756741302{STOPPED,8<=0<=200,i=0,q=0},AUTO}
+[19 February 2017 10:59:56]org.eclipse.jetty.util.component.ContainerLifeCycle|DEBUG : HttpConnectionFactory@7237fe1a{HTTP/1.1} added {HttpConfiguration@80b3493{32768,8192/8192,https://:0,[]},POJO}
+[19 February 2017 10:59:56]org.eclipse.jetty.util.component.ContainerLifeCycle|DEBUG : ServerConnector@452cb430{null}{0.0.0.0:0} added {org.eclipse.jetty.server.Server@19e7cae9,UNMANAGED}
+[19 February 2017 10:59:56]org.eclipse.jetty.util.component.ContainerLifeCycle|DEBUG : ServerConnector@452cb430{null}{0.0.0.0:0} added {qtp756741302{STOPPED,8<=0<=200,i=0,q=0},AUTO}
+[19 February 2017 10:59:56]org.eclipse.jetty.util.component.ContainerLifeCycle|DEBUG : ServerConnector@452cb430{null}{0.0.0.0:0} added {org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@7cc3a470,AUTO}
+[19 February 2017 10:59:56]org.eclipse.jetty.util.component.ContainerLifeCycle|DEBUG : ServerConnector@452cb430{null}{0.0.0.0:0} added {org.eclipse.jetty.io.ArrayByteBufferPool@2cc9c146,POJO}
+[19 February 2017 10:59:56]org.eclipse.jetty.util.component.ContainerLifeCycle|DEBUG : ServerConnector@452cb430{null}{0.0.0.0:0} added {HttpConnectionFactory@7237fe1a{HTTP/1.1},AUTO}
+[19 February 2017 10:59:56]org.eclipse.jetty.server.ServerConnector|DEBUG : ServerConnector@452cb430{HTTP/1.1}{0.0.0.0:0} added HttpConnectionFactory@7237fe1a{HTTP/1.1}
+[19 February 2017 10:59:56]org.eclipse.jetty.util.component.ContainerLifeCycle|DEBUG : ServerConnector@452cb430{HTTP/1.1}{0.0.0.0:0} added {org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@42125ec1,MANAGED}
+[19 February 2017 10:59:56]org.eclipse.jetty.util.component.ContainerLifeCycle|DEBUG : org.eclipse.jetty.server.Server@19e7cae9 added {ServerConnector@452cb430{HTTP/1.1}{0.0.0.0:8080},AUTO}
+[19 February 2017 10:59:56]org.eclipse.jetty.util.component.ContainerLifeCycle|DEBUG : org.eclipse.jetty.server.Server@19e7cae9 added {spark.embeddedserver.jetty.JettyHandler@5d35dbc,AUTO}
+[19 February 2017 10:59:56]spark.embeddedserver.jetty.EmbeddedJettyServer|INFO : == Spark has ignited ...
+[19 February 2017 10:59:56]spark.embeddedserver.jetty.EmbeddedJettyServer|INFO : >> Listening on 0.0.0.0:8080
+[19 February 2017 10:59:56]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : starting org.eclipse.jetty.server.Server@19e7cae9
+[19 February 2017 10:59:56]org.eclipse.jetty.server.Server|INFO : jetty-9.3.z-SNAPSHOT
+[19 February 2017 10:59:57]org.eclipse.jetty.server.handler.AbstractHandler|DEBUG : starting org.eclipse.jetty.server.Server@19e7cae9
+[19 February 2017 10:59:57]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : starting qtp756741302{STOPPED,8<=0<=200,i=0,q=0}
+[19 February 2017 10:59:57]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : STARTED @470ms qtp756741302{STARTED,8<=8<=200,i=8,q=0}
+[19 February 2017 10:59:57]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : starting spark.embeddedserver.jetty.JettyHandler@5d35dbc
+[19 February 2017 10:59:57]org.eclipse.jetty.server.handler.AbstractHandler|DEBUG : starting spark.embeddedserver.jetty.JettyHandler@5d35dbc
+[19 February 2017 10:59:57]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : starting org.eclipse.jetty.server.session.HashSessionManager@6821b470
+[19 February 2017 10:59:57]org.eclipse.jetty.util.component.ContainerLifeCycle|DEBUG : org.eclipse.jetty.server.session.HashSessionManager@6821b470 added {org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@5a92b6a0,MANAGED}
+[19 February 2017 10:59:57]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : starting org.eclipse.jetty.server.session.HashSessionIdManager@5a1c9796
+[19 February 2017 10:59:57]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : STARTED @495ms org.eclipse.jetty.server.session.HashSessionIdManager@5a1c9796
+[19 February 2017 10:59:57]org.eclipse.jetty.util.component.ContainerLifeCycle|DEBUG : org.eclipse.jetty.server.Server@19e7cae9 added {org.eclipse.jetty.server.session.HashSessionIdManager@5a1c9796,MANAGED}
+[19 February 2017 10:59:57]org.eclipse.jetty.util.component.ContainerLifeCycle|DEBUG : org.eclipse.jetty.server.session.HashSessionManager@6821b470 added {org.eclipse.jetty.server.session.HashSessionIdManager@5a1c9796,UNMANAGED}
+[19 February 2017 10:59:57]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : starting org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@5a92b6a0
+[19 February 2017 10:59:57]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : STARTED @500ms org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@5a92b6a0
+[19 February 2017 10:59:57]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : STARTED @503ms org.eclipse.jetty.server.session.HashSessionManager@6821b470
+[19 February 2017 10:59:57]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : STARTED @503ms spark.embeddedserver.jetty.JettyHandler@5d35dbc
+[19 February 2017 10:59:57]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : starting ServerConnector@452cb430{HTTP/1.1}{0.0.0.0:8080}
+[19 February 2017 10:59:57]org.eclipse.jetty.util.component.ContainerLifeCycle|DEBUG : ServerConnector@452cb430{HTTP/1.1}{0.0.0.0:8080} added {sun.nio.ch.ServerSocketChannelImpl[/0:0:0:0:0:0:0:0:8080],POJO}
+[19 February 2017 10:59:57]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : starting org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@7cc3a470
+[19 February 2017 10:59:57]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : STARTED @515ms org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@7cc3a470
+[19 February 2017 10:59:57]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : starting HttpConnectionFactory@7237fe1a{HTTP/1.1}
+[19 February 2017 10:59:57]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : STARTED @516ms HttpConnectionFactory@7237fe1a{HTTP/1.1}
+[19 February 2017 10:59:57]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : starting org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@42125ec1
+[19 February 2017 10:59:57]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : starting org.eclipse.jetty.io.SelectorManager$ManagedSelector@7bf87786 keys=-1 selected=-1
+[19 February 2017 10:59:57]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : STARTED @525ms org.eclipse.jetty.io.SelectorManager$ManagedSelector@7bf87786 keys=0 selected=0
+[19 February 2017 10:59:57]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : starting org.eclipse.jetty.io.SelectorManager$ManagedSelector@7c2e9199 keys=-1 selected=-1
+[19 February 2017 10:59:57]org.eclipse.jetty.io.SelectorManager|DEBUG : Starting Thread[qtp756741302-13-selector-ServerConnectorManager@42125ec1/0,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@7bf87786 keys=0 selected=0
+[19 February 2017 10:59:57]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : STARTED @528ms org.eclipse.jetty.io.SelectorManager$ManagedSelector@7c2e9199 keys=0 selected=0
+[19 February 2017 10:59:57]org.eclipse.jetty.io.SelectorManager|DEBUG : Starting Thread[qtp756741302-14-selector-ServerConnectorManager@42125ec1/1,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@7c2e9199 keys=0 selected=0
+[19 February 2017 10:59:57]org.eclipse.jetty.io.SelectorManager|DEBUG : Selector loop waiting on select
+[19 February 2017 10:59:57]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : STARTED @529ms org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@42125ec1
+[19 February 2017 10:59:57]org.eclipse.jetty.io.SelectorManager|DEBUG : Selector loop waiting on select
+[19 February 2017 10:59:57]org.eclipse.jetty.util.component.ContainerLifeCycle|DEBUG : ServerConnector@452cb430{HTTP/1.1}{0.0.0.0:8080} added {acceptor-0@1756e62c,POJO}
+[19 February 2017 10:59:57]org.eclipse.jetty.server.ServerConnector|INFO : Started ServerConnector@452cb430{HTTP/1.1}{0.0.0.0:8080}
+[19 February 2017 10:59:57]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : STARTED @532ms ServerConnector@452cb430{HTTP/1.1}{0.0.0.0:8080}
+[19 February 2017 10:59:57]org.eclipse.jetty.server.Server|INFO : Started @532ms
+[19 February 2017 10:59:57]org.eclipse.jetty.util.component.AbstractLifeCycle|DEBUG : STARTED @533ms org.eclipse.jetty.server.Server@19e7cae9
