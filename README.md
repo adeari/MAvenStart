@@ -18,10 +18,10 @@ READ Log aplication in<br>
 _________________________________________________________________________________________
 Other information<br>
 Command mvn :<br>
-mvn validate
-mvn generate-sources
-mvn process-sources
-mvn generate-resources
-mvn process-resources
-mvn compile
-mvn --version
+mvn validate<br>
+mvn generate-sources<br>
+mvn process-sources<br>
+mvn generate-resources<br>
+mvn process-resources<br>
+mvn compile<br>
+mvn --version<br>
